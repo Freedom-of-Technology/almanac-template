@@ -28,4 +28,8 @@ jobs:
         with:
           node-version: 24.19.0
       # --secrets . also looks for secrets in every other file here, such as the guides.
-      - run: node .tools/cli/check.mjs dns --secrets .
+      - if: github.repository != 'Freedom-of-Technology/almanac-template'
+        run: node .tools/cli/check.mjs dns --secrets .
+      # The template itself has no records files, so there it only looks for secrets.
+      - if: github.repository == 'Freedom-of-Technology/almanac-template'
+        run: node .tools/cli/check.mjs --secrets .
