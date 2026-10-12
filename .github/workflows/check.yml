@@ -1,0 +1,31 @@
+# Runs Almanac Check's command-line check on every change and every Monday morning. A failed run
+# means a records file no longer matches live DNS, or a change put something that looks like a
+# secret in a file. GitHub emails a failed run to whoever last changed this schedule.
+name: Check records
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 13 * * 1" # Mondays, 9:17 a.m. Eastern
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      # The checker lives with the Almanac Check page, in FreeOT's public tools repo.
+      - uses: actions/checkout@v5
+        with:
+          repository: Freedom-of-Technology/tools
+          path: .tools
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24.19.0
+      # --secrets . also looks for secrets in every other file here, such as the guides.
+      - run: node .tools/cli/check.mjs dns --secrets .
