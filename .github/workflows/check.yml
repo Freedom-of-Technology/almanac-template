@@ -7,7 +7,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: "17 13 * * 1"  # Mondays, 9:17 a.m. Eastern
+    - cron: "17 13 * * 1"  # Mondays, 13:17 UTC (9:17 a.m. Eastern in summer, 8:17 in winter)
   workflow_dispatch:
 
 permissions:

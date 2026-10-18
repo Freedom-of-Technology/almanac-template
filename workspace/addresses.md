@@ -35,7 +35,7 @@ that are already public, or harmless if they become public. These are never writ
 - Passwords, codes or keys of any kind.
 
 Those are kept in your business's Business Technology Account Map, a note in your password
-manager (1Password). Someone who can read them could use them to get into your accounts.
+manager, such as 1Password. Someone who can read them could use them to get into your accounts.
 
 ## When an address changes
 
