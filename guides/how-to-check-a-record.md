@@ -38,12 +38,12 @@ It can't see records that are live but missing from your file. If you suspect on
 
 Each record is one line. For example:
 
-```
+```text
 _dmarc   300   IN  TXT   "v=DMARC1; p=reject; rua=mailto:dmarc@freedomoftechnology.com"
 ```
 
 | Part | Here | What it means |
-|---|---|---|
+| --- | --- | --- |
 | Name | `_dmarc` | Which address the record is for. `@` means the domain itself, like freedomoftechnology.com. Anything else goes in front: `_dmarc` means `_dmarc.freedomoftechnology.com`. |
 | Number | `300` | How many seconds other computers remember the answer. You can ignore it. |
 | `IN` | | Always there. Ignore it. |

@@ -23,7 +23,7 @@ Send an email to yourself from a personal account (Gmail, Yahoo, Outlook). Then 
 In your [records file](your-records-file.md), the email records are under **Email**. There are four kinds:
 
 | Name in the file | Type | What it's for | If it's wrong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `@` (five lines) | MX | Where incoming email goes | Email to you doesn't arrive |
 | `@`, starting `v=spf1` | TXT | Who may send as you | What you send lands in spam or bounces back |
 | `google._domainkey` | TXT | Google's signature on what you send | What you send lands in spam or bounces back |
@@ -48,7 +48,7 @@ different or missing. Copy the value from the file exactly, letter for letter.
 
 The `google._domainkey` value is too long to fit in one piece, so the record itself is split
 into pieces. Don't copy those. Just above it there's a note line starting `; paste:`. Copy
-everything after `paste: ` on that line: it's the whole value in one go.
+everything after `paste:` and its space on that line: it's the whole value in one go.
 
 ## 5. Check Google's side
 

@@ -2,7 +2,7 @@
 
 Templates and guides created and maintained by
 [Freedom of Technology, LLC](https://freedomoftechnology.com) ·
-[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.0, 12 Oct 2026
+[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.1, 18 Oct 2026
 
 This is your **almanac**: the written record of how your business's technology is set up. Like
 the almanac people kept on the shelf, it's the book you reach for when something needs fixing.
@@ -17,7 +17,7 @@ like info@ or billing@, and where each one's mail goes.
 ## Something's wrong. Which guide do I need?
 
 | What's happening | Guide |
-|---|---|
+| --- | --- |
 | Email isn't arriving, or what you send lands in spam | [Email stopped working](guides/email-stopped-working.md) |
 | Mail to one address bounces or never arrives, but the rest of your email works | [An email address stopped working](guides/an-address-stopped-working.md) |
 | You get daily emails titled "Report domain: …" with a `.zip` or `.gz` file attached | [Report emails about your domain](guides/dmarc-reports.md) |
@@ -42,7 +42,7 @@ each saying what it's for.
 
 <!-- FreeOT: one row per domain, linking to its file in dns/. The row below is an example. -->
 | Domain | Records file | DNS company | Where you bought the domain |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | freedomoftechnology.com | [Open it](dns/freedomoftechnology.com.zone) | Cloudflare | GoDaddy |
 
 ## Your email addresses
