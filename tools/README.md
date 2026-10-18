@@ -32,8 +32,7 @@ addresses, so no DNS company can import it as is.
 
 GitHub runs it on every change and every Monday morning (`.github/workflows/check.yml`), and
 emails a failed run. The workflow checks out the tools repo's `main` each time, so a fix there
-reaches this check without a change here. Secret blocking before a change is saved needs a paid
-GitHub plan, so on the free plan this is the guard: it catches a secret right after the change,
+reaches this check without a change here. It catches a secret right after a change is saved,
 not before.
 
 ## The template this almanac comes from
@@ -49,8 +48,6 @@ The front page names the template version it was copied from.
   (notes in `<!-- -->` don't show on GitHub's page), and the records files.
 - **Keeping a copy current:** when the template has a newer version, FreeOT copies the changed
   guides into the business's almanac by pull request and updates the version on its front page.
-  That's part of looking after the business. A business that stops working with FreeOT keeps the
-  version it has; it still works.
 - **Changing the template:** a guide changes in the template first, never only in one almanac.
   Each release gets a version number and date on the template's front page and a matching git tag
   (`v1.0`, `v1.1`, ...).
