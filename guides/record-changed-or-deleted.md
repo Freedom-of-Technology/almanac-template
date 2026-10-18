@@ -37,7 +37,7 @@ undoing it. If the change was right, update your records file instead (see
 
 For a TXT record, paste the text without the quote marks around it. If the line just above the
 record in your file starts with `; paste:`, copy from that line instead (everything after
-`paste: `). Long values are written out there in one piece.
+`paste:` and the space after it). Long values are written out there in one piece.
 
 **At Cloudflare:**
 

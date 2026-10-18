@@ -12,7 +12,7 @@ Last checked against Google Workspace: 12 Oct 2026.
 
 <!-- FreeOT: one row per address. The row below is an example. -->
 | Address | What it's for | Where its mail goes | Set up as |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | dmarc@freedomoftechnology.com | Email companies send their daily reports about the domain here (see [Report emails about your domain](../guides/dmarc-reports.md)). It's in the domain's `_dmarc` record, which anyone can look up, so expect some spam. | The owner's mailbox | An extra address (Google calls it an "alternate email") on the owner's account |
 
 <!-- FreeOT: keep this part only if the business has a second domain set up as another name for

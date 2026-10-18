@@ -24,7 +24,7 @@ Your `_dmarc` record also tells email companies what to do with email that fails
 see which setting yours has, look for `p=` in the `_dmarc` line of your records file:
 
 | Setting | What happens to email that fails the checks |
-|---|---|
+| --- | --- |
 | `p=none` | It's delivered anyway. The record only asks for these reports. Every domain starts here while FreeOT checks what sends email as you. |
 | `p=quarantine` | It goes to the spam folder. Some domains wait here for a few weeks on the way to `p=reject`. |
 | `p=reject` | It's refused, so it never arrives. Every domain ends here. |
@@ -79,7 +79,7 @@ delete it (step 9). That's all right: a report holds only server addresses and c
 7. Look at **Sources**. A round chart splits the day's emails into three groups:
 
    | Group | What it means |
-   |---|---|
+   | --- | --- |
    | **DMARC Capable** | Servers set up to send as you, such as Google sending your everyday email. |
    | **Forwarders** | Your emails that someone forwarded, or that a mailing list sent on. |
    | **Threat/Unknown** | Servers that aren't set up to send as you. |
