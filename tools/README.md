@@ -17,7 +17,7 @@ servers and DNSSEC from the domain's registry. It exits with 1 if anything needs
 Before anything else, it refuses a records file that looks like it holds a secret (a private
 key, a known token format, or a password or key written out after its name). `--secrets .`
 looks the same way through every other file in this repo, such as the guides and
-`workspace/addresses.md`. Secrets go in the password manager. If one was committed,
+`workspace/addresses.md`. Secrets never go in this repo. If one was committed,
 removing it from the file isn't enough: it has to come out of the history too, and the secret
 itself has to be replaced with a new one.
 
