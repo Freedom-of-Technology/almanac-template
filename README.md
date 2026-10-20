@@ -2,7 +2,7 @@
 
 Templates and guides created and maintained by
 [Freedom of Technology, LLC](https://freedomoftechnology.com) ·
-[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.1, 18 Oct 2026
+[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.2, 19 Oct 2026
 
 This is your **almanac**: the written record of how your business's technology is set up. Like
 the almanac people kept on the shelf, it's the book you reach for when something needs fixing.
@@ -70,13 +70,11 @@ next time it's used. So:
   Don't add anyone else unless you'd trust them with your email.
 - **Turn on two-step sign-in for GitHub,** so a stolen password alone can't get in.
 - **Never put a password, key or code in it.** Not in the file, not in a note. Passwords, the
-  keys services give you, recovery codes and the code for moving your domain all belong in your
-  password manager, such as 1Password. FreeOT set one up for you as part of setup, unless you
-  chose not to have one.
+  keys services give you, recovery codes and the code for moving your domain are what get someone
+  into your accounts, so keep them private and never write them here.
 - **Only list what's safe to be seen.** Admin accounts, accounts that only software signs in to,
   and recovery addresses and phone numbers would help someone trying to get in, so they're never
-  written here. They go in your business's Business Technology Account Map, a note in your
-  password manager.
+  written here.
 
 ## Getting help
 
