@@ -80,7 +80,7 @@ delete it (step 9). That's all right: a report holds only server addresses and c
 
    | Group | What it means |
    | --- | --- |
-   | **DMARC Capable** | Servers set up to send as you, such as Google sending your everyday email. |
+   | **DMARC Capable** | Servers set up to send as you, such as the company that runs your everyday email. |
    | **Forwarders** | Your emails that someone forwarded, or that a mailing list sent on. |
    | **Threat/Unknown** | Servers that aren't set up to send as you. |
 
@@ -105,7 +105,7 @@ delete it (step 9). That's all right: a report holds only server addresses and c
 
 **Get help when:**
 
-- **Something under DMARC Capable is below 100%.** If it's Google, your signature or your "who
+- **Something under DMARC Capable is below 100%.** If it's the company that runs your email, its signature or your "who
   may send as you" record has probably stopped working: start with
   [Email stopped working](email-stopped-working.md).
 - **A service you really use shows up under Threat/Unknown.** Its emails, such as your
@@ -136,6 +136,9 @@ inbox. Gmail calls a filter's folder a **label**.
 They'll appear under **DMARC reports** in Gmail's left-hand menu. To undo it, open Gmail's
 settings (the gear at the top right), then **See all settings › Filters and Blocked
 Addresses**, and delete the filter.
+
+Other mail apps, such as Outlook, can do the same with a rule of their own. Ask FreeOT if
+you'd like help setting one up.
 
 A fake report with the same subject would be filed there too, so step 1 still applies to any you
 open.

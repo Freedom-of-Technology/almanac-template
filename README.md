@@ -2,7 +2,7 @@
 
 Templates and guides created and maintained by
 [Freedom of Technology, LLC](https://freedomoftechnology.com) ·
-[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.2, 19 Oct 2026
+[almanac template](https://github.com/Freedom-of-Technology/almanac-template) v1.3, 30 Oct 2026
 
 This is your **almanac**: the written record of how your business's technology is set up. Like
 the almanac people kept on the shelf, it's the book you reach for when something needs fixing.
